@@ -14,7 +14,7 @@ tags: [مراجعه, تماس, آدرس]
 
 - <a href="tel:+{{ site.author.phone_number }}" title="Call us" target="_blank"> <i class="fa fa-phone"></i> ‪+{{ site.author.phone_number }} ‬</a>
 - <a href="tel:+{{ site.author.mobile_number }}" title="Call us" target="_blank"> <i class="fa fa-phone"></i> ‪+{{ site.author.mobile_number }} ‬</a>
-
+- <a href="https://wa.me/{{ site.author.mobile_number }}?text={{ site.author.whatsapp_text }}" title="Contact us on whatsapp" target="_blank"> <i class="fab fa-whatsapp"></i> واتس‌اپ</a>
 
 ###  آدرس
 
